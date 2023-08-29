@@ -1,8 +1,8 @@
 
 body{
     font-family: 'Prompt', sans-serif;
-    background-color: #435334;
-    color: #9EB384;
+    background-image: url('https://images.unsplash.com/photo-1629382900018-a3c7c3974f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
+    color: #ffc8dd;
     align-items: center;
     text-align: center;
     font-size: 150%;
@@ -19,12 +19,13 @@ body{
     max-width: 500px;
     min-width: 400px;
     border-radius: 20px;
-    background-color: #CEDEBD;
+    background-color: #ffc8dd;
     background-size: 25px 25px;
     background-image: radial-gradient(#000 5.6%, transparent 0);
     padding: 1rem;
     box-sizing: border-box;
     box-shadow: 2px 4px 4px 3px #000;
+    display: inline-block;
 }
 
 .heading{
@@ -34,7 +35,7 @@ body{
 }
 
 .heading h1{
-    background-color: #435334;
+    background-color: #7F515B;
     transform: rotate(2.5deg);
     border-radius:  20% 5% 20% 5%/5% 20% 25% 20%;
     font-size: 2.5rem;
@@ -47,8 +48,8 @@ body{
     font-size: 1.3rem;
     background-color: transparent;
     border: 2px solid transparent;
-    border-bottom: dashed 2px #9EB384;
-    color: #435334;
+    border-bottom: dashed 2px #b5838d;
+    color: #7F515B;
     width: 50%;
     margin: 2px;
 }
@@ -63,9 +64,9 @@ button{
 
 button span{
     display: block;
-    border: 2px solid #435334;
-    background: #435334;
-    color: #9EB384;
+    border: 2px solid #7F515B;
+    background: #7F515B;
+    color: #ffc8dd;
     padding: 0.2rem 1.2rem;
     border-radius: 10px;
     font-size: 1.2rem;
@@ -76,6 +77,27 @@ ul li{
     text-align: left;
     position: relative;
     padding: 0.2rem;
-    color: #435334;
+    color: #7F515B;
     list-style: circle;
+}
+
+.footer{
+    color: #7F515B;
+    padding: 2rem;
+    display: grid;
+}
+
+.foot{
+    font-size: 12px;
+    margin-top: 25rem;
+    margin-left: 6rem;
+    position: absolute;
+}
+
+.instructions{
+    width: fit-content;
+    max-width: 500px;
+    text-align: justify;
+    margin-top: 2rem;
+    font-size: 18px;
 }

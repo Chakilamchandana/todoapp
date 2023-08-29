@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ToDoItem from "./ToDoItem";
+import Footer from "./Footer";
 
 function App(){
     const [inputText, setInputText] = useState("");
@@ -19,9 +20,10 @@ function App(){
     }
 
 return(
+    <div>
     <div className="container">
         <div className="heading">
-            <h1>To-Do List</h1>
+            <h1>To-Do</h1>
         </div>
         <div className="form">
             <input type="text" onChange={handleChange} value={inputText}/>
@@ -34,7 +36,12 @@ return(
                 })}
             </ul>
         </div>
+        </div>
+        <div>
+        <Footer/>
+        </div>
     </div>
+    
 )
 }
 
